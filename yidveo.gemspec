@@ -19,4 +19,9 @@ Gem::Specification.new do |s|
   s.add_dependency "rails", "~> 4.1.8"
 
   s.add_development_dependency "pg"
+  s.add_development_dependency 'rspec-rails'
+  s.add_development_dependency 'capybara'
+  s.add_development_dependency 'factory_girl_rails'
+
+  s.test_files = Dir['spec/**/*']
 end
