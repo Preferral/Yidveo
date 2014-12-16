@@ -53,7 +53,8 @@ var yidveoConfig = function() {
         /* SOAP configuration */
         // soapProxyURL: "http://vidyoweb.apps.vidyo.com/sp/soap_proxy.php",
         // soapProxyURL: "http://localhost:8888/vidyo_example/soap_proxy.php",
-        soapProxyURL: "http://localhost:9292/",
+        // soapProxyURL: "http://localhost:9292/",
+        soapProxyURL: 'http://localhost:3002/yidveo/proxy_request',
         soapUserServicePath: "/services/v1_1/VidyoPortalUserService?wsdl",
         /* Generic classes */
         btnOnClass: "btn-success",

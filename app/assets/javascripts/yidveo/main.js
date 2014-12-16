@@ -1171,7 +1171,7 @@ var application = function (yidConfig) {
                     .done(function (response) {
                         logger.log('info', 'login', 'loginEvent - my Account: ', response, response.Entity);
 
-                        debugger;
+                        // debugger;
 
                         self.myAccount = response.Entity;
                         uiUpdateUserLoginProgress("80%");
@@ -5080,7 +5080,9 @@ var application = function (yidConfig) {
     portalParticipantsPromiseToGet = function (conferenceId) {
         logger.log('info', 'portal', 'portalParticipantsPromiseToGet(', conferenceId, ')');
         // alert("get participants call 1");
+        // console.log("participants call " + conferenceId);
         // debugger;
+
         return helperSoapPromiseToSendUserRequest("getParticipants", {
             conferenceID: conferenceId
         });

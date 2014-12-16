@@ -27,7 +27,8 @@ var soapProxy = function () {
          */
         // proxyUrl: undefined,
         // proxyUrl: 'http://localhost:888/vidyo_example/soap_proxy.php',
-        proxyUrl: 'http://localhost:9292/',
+        // proxyUrl: 'http://localhost:9292/',
+        proxyUrl: 'http://localhost:3002/yidveo/proxy_request',
         /**
          * SOAP method/action (getParticipants)
          * @type {String}

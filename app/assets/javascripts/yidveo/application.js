@@ -20,7 +20,7 @@
 //= require ./vidyo/vidyo.client.parameters
 //= require ./vidyo/vidyo.client.messages
 //= require ./vidyo/vidyo.client.private.messages
-//= require ./vidyo/vidyo.cliento
+//= require ./vidyo/vidyo.client
 //= require handlebars
 //= require ./main.config
 //= require ./main
